@@ -103,10 +103,10 @@ LayerNormalization：采用的是DeepNorm，是对post-Normalization 的改进�
 
 ## 精选面试50题
 
-简述GPT和BERT的区别
-讲一下GPT系列模型是如何演进的？
-为什么现在的大模型大多是decoder-only的架构？
-讲一下生成式语言模型的工作机理
+- 简述GPT和BERT的区别
+- 讲一下GPT系列模型是如何演进的？
+- 为什么现在的大模型大多是decoder-only的架构？
+- 讲一下生成式语言模型的工作机理
 哪些因素会导致LLM的偏见？
 LLM中的因果语言建模与掩码语言建模有什么区别？
 如何减轻LLM中的幻觉现象？
