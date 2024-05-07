@@ -107,49 +107,50 @@ LayerNormalization：采用的是DeepNorm，是对post-Normalization 的改进�
 - 讲一下GPT系列模型是如何演进的？
 - 为什么现在的大模型大多是decoder-only的架构？
 - 讲一下生成式语言模型的工作机理
-哪些因素会导致LLM的偏见？
-LLM中的因果语言建模与掩码语言建模有什么区别？
-如何减轻LLM中的幻觉现象？
-解释ChatGPT的零样本和少样本学习的概念
-你了解大型语言模型中的哪些分词技术？
-如何评估大语言模型（LLMs）的性能？
-如何缓解LLMs重复读问题？
-请简述Transformer基本原理
-为什么Transformer的架构需要多头注意力机制？
-transformers需要位置编码吗？
-transformer中，同一个词可以有不同的注意力权重吗？
-Wordpiece与BPE之间的区别是什么？
-有哪些常见的优化LLMs输出的技术？
-GPT-3拥有的1750亿参数，是怎么算出来的？
-温度系数和top-p，top-k参数有什么区别？
-为什么transformer块使用LayerNorm而不是BatchNorm？
-介绍一下postlayernorm和prelayernorm的区别
-什么是思维链（CoT）提示？
-你觉得什么样的任务或领域适合用思维链提示？
-你了解ReAct吗，它有什么优点？
-解释一下langchainAgent的概念
-langchain有哪些替代方案？
-langchaintoken计数有什么问题？如何解决？
-LLM预训练阶段有哪几个关键步骤？
-RLHF模型为什么会表现比SFT更好？
-参数高效的微调（PEFT）有哪些方法？
-LORA微调相比于微调适配器或前缀微调有什么优势？
-有了解过什么是稀疏微调吗？
-训练后量化（PTQ）和量化感知训练（QAT）与什么区别？
-LLMs中，量化权重和量化激活的区别是什么？
-AWQ量化的步骤是什么？
-介绍一下GPipe推理框架
-矩阵乘法如何做张量并行？
-请简述下PPO算法流程，它跟TRPO的区别是什么？
-什么是检索增强生成（RAG）？
-自前主流的中文向量模型有哪些？
-为什么LLM的知识更新很困难？
-RAG和微调的区别是什么？
-大模型一般评测方法及基准是什么？
-什么是KVCache技米，它真体是如何实现的？
-DeepSpeed推理对算子融合做了哪些优化？
-简述一下FlashAttention的原理
-MHA，GQA，MQA三种注意力机制的区别是什么？
-请介绍一下微软的ZeRO优化器
-PagedAttention的原理是什么，解决了LLM中的什么问题？
-什么是投机采样技术，请举例说明？
+- 哪些因素会导致LLM的偏见？
+- LLM中的因果语言建模与掩码语言建模有什么区别？
+- 如何减轻LLM中的幻觉现象？
+- 解释ChatGPT的零样本和少样本学习的概念
+- 你了解大型语言模型中的哪些分词技术？
+- 如何评估大语言模型（LLMs）的性能？
+- 如何缓解LLMs重复读问题？
+- 请简述Transformer基本原理
+- 为什么Transformer的架构需要多头注意力机制？
+- transformers需要位置编码吗？
+- transformer中，同一个词可以有不同的注意力权重吗？
+- Wordpiece与BPE之间的区别是什么？
+- 有哪些常见的优化LLMs输出的技术？
+- GPT-3拥有的1750亿参数，是怎么算出来的？
+- 温度系数和top-p，top-k参数有什么区别？
+- 为什么transformer块使用LayerNorm而不是BatchNorm？
+- 介绍一下postlayernorm和prelayernorm的区别
+- 什么是思维链（CoT）提示？
+- 你觉得什么样的任务或领域适合用思维链提示？
+- 你了解ReAct吗，它有什么优点？
+- 解释一下langchainAgent的概念
+- langchain有哪些替代方案？
+- langchaintoken计数有什么问题？如何解决？
+- LLM预训练阶段有哪几个关键步骤？
+- RLHF模型为什么会表现比SFT更好？
+- 参数高效的微调（PEFT）有哪些方法？
+- LORA微调相比于微调适配器或前缀微调有什么优势？
+- 有了解过什么是稀疏微调吗？
+- 训练后量化（PTQ）和量化感知训练（QAT）与什么区别？
+- LLMs中，量化权重和量化激活的区别是什么？
+- AWQ量化的步骤是什么？
+- 介绍一下GPipe推理框架
+- 矩阵乘法如何做张量并行？
+- 请简述下PPO算法流程，它跟TRPO的区别是什么？
+- 什么是检索增强生成（RAG）？
+- 自前主流的中文向量模型有哪些？
+- 为什么LLM的知识更新很困难？
+- RAG和微调的区别是什么？
+- 大模型一般评测方法及基准是什么？
+- 什么是KVCache技米，它真体是如何实现的？
+- DeepSpeed推理对算子融合做了哪些优化？
+- 简述一下FlashAttention的原理
+- MHA，GQA，MQA三种注意力机制的区别是什么？
+- 请介绍一下微软的ZeRO优化器
+- PagedAttention的原理是什么，解决了LLM中的什么问题？
+- 什么是投机采样技术，请举例说明？
+
